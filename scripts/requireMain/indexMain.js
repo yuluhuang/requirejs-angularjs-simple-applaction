@@ -5,8 +5,8 @@
 require.config({
     baseUrl: '.',
     paths: {
-        'angular': '../1.3.0/angular',
-        'domReady': 'domReady'
+        'angular': 'scripts/1.3.0/angular',
+        'domReady': 'scripts/requireMain/domReady'
     },
     shim: {
 
@@ -19,8 +19,8 @@ require.config({
     require([
             'angular',
             'domReady',
-            '../App/indexApp',
-            '../Controllers/indexCtrl'
+            'scripts/App/indexApp',
+            'scripts/Controllers/indexCtrl'
         ],
         function (angular, domReady) {
             //app.init();

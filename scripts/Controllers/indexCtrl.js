@@ -21,7 +21,7 @@ define(function (require) {
         }, 2000);
 
         $scope.loginClick = function () {
-
+            alert("ok");
         }
     }]);
     return app;
